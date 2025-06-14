@@ -3,3 +3,11 @@
 @use "../node_modules/@picocss/pico/scss/pico" with (
   $theme-color: "orange"
 );
+
+span {
+    color: orange;
+}
+
+header {
+    background-color: rgb(226, 226, 226);
+}

@@ -2806,5 +2806,12 @@ textarea,
     transition-duration: 0s !important;
   }
 }
+span {
+  color: orange;
+}
+
+header {
+  background-color: rgb(226, 226, 226);
+}
 
 /*# sourceMappingURL=style.min.css.map */
