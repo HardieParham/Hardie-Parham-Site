@@ -1,0 +1,22 @@
+
+
+@use "../node_modules/@picocss/pico/scss/pico" with (
+  $theme-color: "orange"
+);
+
+body {
+    background-color: rgb(250, 249, 246);
+}
+
+header, footer {
+    background-color: rgb(233, 233, 233);
+ 
+    span {
+    color: rgb(210, 67, 23)
+    }
+
+    .icon {
+    width: 20px;
+    height: auto;
+    }   
+}
