@@ -2806,12 +2806,19 @@ textarea,
     transition-duration: 0s !important;
   }
 }
-span {
-  color: orange;
+body {
+  background-color: rgb(250, 249, 246);
 }
 
-header {
-  background-color: rgb(226, 226, 226);
+header, footer {
+  background-color: rgb(233, 233, 233);
+}
+header span, footer span {
+  color: rgb(210, 67, 23);
+}
+header .icon, footer .icon {
+  width: 20px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.min.css.map */

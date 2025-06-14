@@ -4,10 +4,19 @@
   $theme-color: "orange"
 );
 
-span {
-    color: orange;
+body {
+    background-color: rgb(250, 249, 246);
 }
 
-header {
-    background-color: rgb(226, 226, 226);
+header, footer {
+    background-color: rgb(233, 233, 233);
+ 
+    span {
+    color: rgb(210, 67, 23)
+    }
+
+    .icon {
+    width: 20px;
+    height: auto;
+    }   
 }
