@@ -9,7 +9,25 @@ body {
 
     #main-img {
         border-radius: 16px;
+        margin-bottom: 16px;
     }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem; /* spacing between cards */
+        justify-content: flex-start; /* or center / space-around etc. */
+    }
+
+    .card {
+        display: inline-block;
+        width: fit-content;
+        max-width: 100%;
+        margin: 0;
+    }
+
+
 }
 
 header, footer {
