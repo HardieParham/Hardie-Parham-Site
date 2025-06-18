@@ -2806,9 +2806,6 @@ textarea,
     transition-duration: 0s !important;
   }
 }
-body {
-  background-color: rgb(250, 249, 246);
-}
 body #main-img {
   border-radius: 16px;
   margin-bottom: 16px;
