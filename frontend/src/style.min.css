@@ -2809,6 +2809,24 @@ textarea,
 body {
   background-color: rgb(250, 249, 246);
 }
+body #main-img {
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+body .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem; /* spacing between cards */
+  justify-content: flex-start; /* or center / space-around etc. */
+}
+body .card {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  border-radius: 16px;
+  margin: 2%;
+}
 
 header, footer {
   background-color: rgb(233, 233, 233);
