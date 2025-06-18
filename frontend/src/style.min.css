@@ -2809,6 +2809,9 @@ textarea,
 body {
   background-color: rgb(250, 249, 246);
 }
+body #main-img {
+  border-radius: 16px;
+}
 
 header, footer {
   background-color: rgb(233, 233, 233);
