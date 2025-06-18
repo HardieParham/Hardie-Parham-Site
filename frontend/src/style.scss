@@ -1,8 +1,6 @@
-
-
 @use "../node_modules/@picocss/pico/scss/pico" with (
-  $theme-color: "orange"
-);
+    $theme-color: "orange",);
+    
 
 body {
     background-color: rgb(250, 249, 246);
@@ -10,6 +8,10 @@ body {
     #main-img {
         border-radius: 16px;
         margin-bottom: 16px;
+    }
+
+    .image-team {
+        height:64px;
     }
 
     .card-container {

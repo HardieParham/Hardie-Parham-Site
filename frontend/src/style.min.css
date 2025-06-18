@@ -2813,6 +2813,9 @@ body #main-img {
   border-radius: 16px;
   margin-bottom: 16px;
 }
+body .image-team {
+  height: 64px;
+}
 body .card-container {
   display: flex;
   flex-direction: row;
