@@ -2835,6 +2835,9 @@ span {
 header, footer {
   background-color: rgb(233, 233, 233);
 }
+header h2, header p, footer h2, footer p {
+  color: #2d1509;
+}
 header .icon, footer .icon {
   width: 20px;
   height: auto;
