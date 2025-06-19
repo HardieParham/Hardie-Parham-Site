@@ -2806,12 +2806,12 @@ textarea,
     transition-duration: 0s !important;
   }
 }
-body {
-  background-color: rgb(250, 249, 246);
-}
 body #main-img {
   border-radius: 16px;
   margin-bottom: 16px;
+}
+body .image-team {
+  height: 64px;
 }
 body .card-container {
   display: flex;
@@ -2828,11 +2828,15 @@ body .card {
   margin: 2%;
 }
 
+span {
+  color: rgb(210, 67, 23);
+}
+
 header, footer {
   background-color: rgb(233, 233, 233);
 }
-header span, footer span {
-  color: rgb(210, 67, 23);
+header h2, header p, footer h2, footer p {
+  color: #2d1509;
 }
 header .icon, footer .icon {
   width: 20px;

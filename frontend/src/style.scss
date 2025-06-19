@@ -1,15 +1,18 @@
-
-
 @use "../node_modules/@picocss/pico/scss/pico" with (
-  $theme-color: "orange"
-);
+    $theme-color: "orange",);
+@use "../node_modules/@picocss/pico/scss/colors" as *;
+    
 
 body {
-    background-color: rgb(250, 249, 246);
+    // background-color: rgb(250, 249, 246);
 
     #main-img {
         border-radius: 16px;
         margin-bottom: 16px;
+    }
+
+    .image-team {
+        height:64px;
     }
 
     .card-container {
@@ -31,11 +34,15 @@ body {
 
 }
 
+span {
+    color: rgb(210, 67, 23)
+    }
+
 header, footer {
     background-color: rgb(233, 233, 233);
  
-    span {
-    color: rgb(210, 67, 23)
+    h2, p {
+        color: $orange-900;
     }
 
     .icon {
