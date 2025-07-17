@@ -15,12 +15,13 @@ body {
         height:64px;
     }
 
-    .card-container {
+    #card-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1rem; /* spacing between cards */
+        gap: 0.25rem; /* spacing between cards */
         justify-content: flex-start; /* or center / space-around etc. */
+        align-items: flex-start;
     }
 
     .card {
