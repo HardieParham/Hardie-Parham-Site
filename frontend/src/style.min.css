@@ -2813,12 +2813,13 @@ body #main-img {
 body .image-team {
   height: 64px;
 }
-body .card-container {
+body #card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem; /* spacing between cards */
+  gap: 0.25rem; /* spacing between cards */
   justify-content: flex-start; /* or center / space-around etc. */
+  align-items: flex-start;
 }
 body .card {
   display: inline-block;
