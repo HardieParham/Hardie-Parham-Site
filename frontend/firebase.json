@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "i-002-hardie-parham-site",
     "public": "dist",
     "cleanUrls": true,
     "ignore": [
