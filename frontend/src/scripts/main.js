@@ -6,6 +6,7 @@ const splide = new Splide( '.splide', {
 	type   : 'loop',
 	drag   : 'free',
 	focus  : 'center',
+	pagination : false,
 	pauseOnHover: false,
 	pauseOnFocus: false,
 	lazyLoad: 'nearby',
