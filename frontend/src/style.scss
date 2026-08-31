@@ -33,14 +33,43 @@ body {
         margin:2%;
     }
 
-
 	.splide {
 		p {
 			text-align: center;
 		}
 	}
 
+    #project-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.25rem; /* spacing between cards */
+        justify-content: flex-start; /* or center / space-around etc. */
+        align-items: flex-start;
+    }
 
+    .project {
+        display: inline-block;
+        width: fit-content;
+        width: 340px;
+        border-radius: 16px;
+        margin:2%;
+
+		header {
+			text-align: center;
+			font-weight: bold;
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		footer {
+			overflow-wrap: break-word;
+			word-wrap: break-word;
+		}
+    }
 
 }
 

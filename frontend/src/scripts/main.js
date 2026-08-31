@@ -31,4 +31,4 @@ const splide = new Splide( '.splide', {
 } );
 
 splide.mount( {AutoScroll} );
-console.log("Hello There!")
+console.log("Howdy from the console!")
