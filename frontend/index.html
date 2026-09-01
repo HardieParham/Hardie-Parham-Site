@@ -27,28 +27,30 @@
     </header>
 
     <main class="container">
+		<div id="splide-carousel" class="pico-reset">
+			<section class="splide" aria-label="Splide Basic HTML Example">
+				<div class="splide__track">
+					<ul class="splide__list">
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/aus-card.jpg" alt=""><p>Australia '23</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/brussels-card.jpg" alt=""><p>Brussels '22</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/colorado-card.jpg" alt=""><p>Colorado '24</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/willa_room.jpg" alt=""><p>Family '26</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/turkey-card.jpg" alt=""><p>Turkey '22</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/family-card.jpg" alt=""><p>Family '25</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/smu-card.jpg" alt=""><p>SMU '17</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/soccer-card.jpg" alt=""><p>Soccer '25</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/uk-card.png" alt=""><p>UK '21</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/music_room.jpg" alt=""><p>Family '26</p></div></li>
+						<li class="splide__slide"><div><img data-splide-lazy="images/carousel/wedding-card.jpg" alt=""><p>Wedding '24</p></div></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+
         <section id="about-me" class="section">
             <h2>About <span>Me</span></h2>
 			<hr/>
 
-			<div id="splide-carousel" class="pico-reset">
-				<section class="splide" aria-label="Splide Basic HTML Example">
-					<div class="splide__track">
-						<ul class="splide__list">
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/aus-card.jpg" alt=""><p>Aus '23</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/brussels-card.jpg" alt=""><p>Brussels '22</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/colorado-card.jpg" alt=""><p>Colorado '24</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/willa_room.jpg" alt=""><p>Family '26</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/family-card.jpg" alt=""><p>Family '25</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/smu-card.jpg" alt=""><p>SMU '17</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/soccer-card.jpg" alt=""><p>Soccer '25</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/uk-card.png" alt=""><p>UK '21</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/music_room.jpg" alt=""><p>Family '26</p></div></li>
-							<li class="splide__slide"><div><img data-splide-lazy="images/carousel/wedding-card.jpg" alt=""><p>Wedding '24</p></div></li>
-						</ul>
-					</div>
-				</section>
-			</div>
 				
 			<ul>
 				<li><b>Family:</b> amazing wife, loud daughter, and messy son</li>
@@ -68,7 +70,6 @@
 			
 		</section>
 				
-				
 		<section id="work-history" class="section" style="margin-top:64px;">
 			<h2>Work <span>History</span></h2>
 			<hr/>
@@ -78,9 +79,17 @@
 					<small><i>9/2025 - Present</i></small>
 				</summary>
 				<ul>
-					<li>Thing One</li>
+					<li>Owner representative for Water Treatment Plant renovations</li>
+					<li>Lead review engineer for municipality utility standards.</li>
 				</ul>
-				<p>Lead engineer for execution of new Water Processing Plant, and review engineer for municipality utility standards.</p>
+
+				<div id="project-container">
+					<article class="project">
+						<header>Gallatin Water Plant</header>
+						<img src="images/projects/gpu/GPU_WTP.png">
+						<footer></footer>
+					</article>
+				</div>
 			</details><hr/>
 			
 			<details>
@@ -88,7 +97,39 @@
 					<strong>Senior Project Engineer</strong>, <a href="https://www.toyota.com/" target="_blank">Toyota</a>,
 					<small><i>8/2023 - 1/2025</i></small>
 				</summary>
-				<p>Project Manager for Fire+Safety and Industrial building construction and new TBMNC site in North Carolina</p>
+				<ul>
+					<li>Served as Project Manager for the TBMNC Fire House Project during the construction and project handover phases. A 10,000 sqft civic building for the Toyota fire and safety team with a budget of ~$15M and a construction schedule of ~12 months.</li>
+					<li>Served as Project Manager for the TBMNC Sub-Production Building Project for the design, construction, and handover phases. A 120,000 sqft industrial building for the external FTBC  company with a budget of ~$55M and a construction schedule of ~20 months.</li>
+					<li>Contributed to facility layout planning and high-level budgeting for the TBMNC Quality Lab and Storage Warehouse projects, evaluating project criteria and developing preliminary scope and cost considerations.</li>
+					<li>Coordinated engineering and construction activities with the project's dedicated safety team to identify and address site-specific safety concerns.</li>
+					<li>Managed project budgets and evaluated Change Order Requests, including technical scope, cost impacts, and construction considerations.</li>
+					<li>Developed and maintained master schedules for concurrent projects, coordinating engineering deliverables, procurement activities, and construction milestones with general contractors and other project stakeholders.</li>
+					<li>Managed stakeholder communications with numerous internal and external groups, including but not limited to finance team, design teams, 3rd party vendors, general contractor, and subcontractors.</li>
+					<li>Provided project status reporting and daily activity tracking in coordination with dedicated on-site construction coordinators in order to monitor project progress and identify potential issues.</li>
+					<li>Conducted field investigations of construction conflicts, evaluating existing conditions and coordinating with engineering teams and contractors to identify and resolve technical issues.</li>
+					<li>Applied engineering judgment to respond to construction and design-related RFIs, including coordinating with engineering teams and contractors to resolve technical issues.</li>
+					<li>Led and delegated work among Civil, Mechanical, and Electrical engineering teams, coordinating technical deliverables and project priorities across disciplines.</li>
+					<li>Coordinated architectural finishes in the Fire House building with the general contractor, external architect team, and future building tenant.</li>
+					<li>Evaluated alternative electrical designs for the TBMNC Sub-Production building to expedite the project schedule and utilize equipment readily available.</li>
+					<li>Coordinated project activities to maintain compliance with applicable environmental requirements and site-specific regulations.</li>
+					<li>Performed final technical review and approval of critical project submittals, verifying compliance with project requirements, specifications, and engineering standards.</li>
+					<li>Led the review of engineering design drawings and specs for quality assurance, identifying design errors, coordination issues, and constructability constraints while applying lessons learned from previous projects.</li>
+				</ul>
+
+				<div id="project-container">
+					<article class="project">
+						<header>TBMNC Fire House</header>
+						<img src="images/projects/toyota/fh.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>TBMNC Sub-Prodcution Bldg</header>
+						<img src="images/projects/toyota/830.jpg">
+						<footer></footer>
+					</article>
+				</div>
+
+
 			</details><hr/>
 			
 			<details>
@@ -96,7 +137,24 @@
 					<strong>Civil Engineering Specialist</strong>, <a href="https://nl.toyota.be/" target="_blank" >Toyota</a>,
 					<small><i>1/2021 - 8/2023</i></small>
 				</summary>
-				<p>Project Manager for logistics project construction at the TMMCZ in Czech Republic and TMMT plant in Turkey.</p>
+
+				<ul>
+					<li>Project Manager for logistics project construction at the TMMCZ in Czech Republic</li>
+					<li>Project Manager for construction at the TMMT plant in Turkey.</li>
+				</ul>
+
+				<div id="project-container">
+					<article class="project">
+						<header>TMMCZ Logistics Lot</header>
+						<img src="images/projects/toyota/cbu.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>TMMT Assembly Line</header>
+						<img src="images/projects/toyota/pw.jpg">
+						<footer></footer>
+					</article>
+				</div>
 			</details><hr/>
 			
 			<details>
@@ -104,7 +162,33 @@
 					<strong>Structural Project Engineer</strong>, <a href="https://www.stantec.com/en" target="_blank">Stantec</a>,
 					<small><i>5/2019 - 11/2020</i></small>
 				</summary>
-				<p>Structural Design lead for multiple civic buildings including schools, churches, and gymnasiums in TX.</p>
+				
+				<ul>
+					<li>Structural Design lead for multiple civic buildings including schools, churches, and gymnasiums in TX.</li>
+				</ul>
+
+				<div id="project-container">
+					<article class="project">
+						<header>Gunn High School</header>
+						<img src="images/projects/stantec/gunn.png">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>Plano Sports Authority</header>
+						<img src="images/projects/stantec/psa.png">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>Ft Sam Houston School Gym</header>
+						<img src="images/projects/stantec/sam.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>Woodrow Wilson High School</header>
+						<img src="images/projects/stantec/wwhs.png">
+						<footer></footer>
+					</article>
+				</div>
 			</details><hr/>
 			
 			<details>
@@ -113,6 +197,33 @@
 					<small><i>7/2017 - 4/2019</i></small>
 				</summary>
 				<p>Junior structural designer assisting in multiple civic buildings including schools, churches, and gymnasiums in TX, SC, and CO.</p>
+			
+				<ul>
+					<li>Junior structural designer assisting in multiple civic buildings including schools, churches, and gymnasiums in TX, SC, and CO.</li>
+				</ul>
+
+				<div id="project-container">
+					<article class="project">
+						<header>Highland Park HS Natatorium</header>
+						<img src="images/projects/rlg/hp.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>Southpark Church</header>
+						<img src="images/projects/rlg/southpark.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>St Andrews Methodist Church</header>
+						<img src="images/projects/rlg/standrew.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>Uplift Elementary School</header>
+						<img src="images/projects/rlg/uplift.jpg">
+						<footer></footer>
+					</article>
+				</div>
 			</details><hr/>
 			
 			<details>
@@ -120,7 +231,9 @@
 					<strong>Structural Engineering Intern</strong>, <a href="https://www.rlginc.com/" target="_blank"><abbr title="Raymond L Goodson">RLG</abbr> Inc.</a>,
 					<small><i>8/2016 - 7/2017</i></small>
 				</summary>
-				<p>Intern Structural designer assisting in multiple projects including civic, commercial, mid-rise redesidential projects in TX.</p>
+				<ul>
+					<li>Intern Structural designer assisting in multiple projects including civic, commercial, mid-rise redesidential projects in TX.</li>
+				</ul>
 			</details><hr/>
 			
 			<details>
@@ -128,7 +241,23 @@
 					<strong>Project Delivery Intern</strong>, <a href="https://www.ntta.org/" target="_blank"><abbr title="North Texas Tollway Authority">NTTA</abbr></a>,
 					<small><i>5/2016 - 8/2016</i></small>
 				</summary>
-				<p>Intern projct assistant for Dallas North Tollway and Sam Rayburn Tollway expansion projects in Texas.</p>
+
+				<ul>
+					<li>Intern projct assistant for Dallas North Tollway and Sam Rayburn Tollway expansion projects in Texas.</li>
+				</ul>
+
+				<div id="project-container">
+					<article class="project">
+						<header>Dallas North Tollway</header>
+						<img src="images/projects/ntta/dnt.jpg">
+						<footer></footer>
+					</article>
+					<article class="project">
+						<header>Sam Rayburn Tollway</header>
+						<img src="images/projects/ntta/srt.png">
+						<footer></footer>
+					</article>
+				</div>
 			</details><hr/>
 			
 			<details>
@@ -136,11 +265,22 @@
 					<strong>Engineering Intern</strong>, <a href="https://consecogroup.com/" target="_blank">The Conseco Group</a>,
 					<small><i>6/2014 - 8/2014</i></small>
 				</summary>
-				<p>Intern engineer assisting in multiple fast food remodeling projects in TN.</p>
+
+				<ul>
+					<li>Intern engineer assisting in multiple fast food remodeling projects in TN.</li>
+				</ul>
+
+				<div id="project-container">
+					<article class="project">
+						<header>Chick-fila Remodels</header>
+						<img src="images/projects/conseco/chickfila.jpg">
+						<footer></footer>
+					</article>
+				</div>			
+			
 			</details><hr/>
-			<a><button>View Resume</button></a>
+			<a href="HP_Resume_2026.pdf" target="_blank" type="application/pdf"><button>View Resume</button></a>
 		</section>
-				
 				
 		<section id="coding-projects" class="section"  style="margin-top:64px;">
 			<h2>Coding <span>Projects</span></h2>
@@ -150,37 +290,37 @@
 				<article class="project">
 					<header><a href="#">Chasing Joy Blog</a></header>
 					<img src="images/projects/coding/chasing_joy.jpg">
-					<footer><small>Blog page for Scleroderma survivors.</small></footer>
+					<footer><small>Blog page for scleroderma survivors</small></footer>
 				</article>
 				
 				<article class="project">
 					<header><a href="#">Opryland Remembered</a></header>
 					<img src="images/projects/coding/gate1.jpg">
-					<footer><small>For Opryland.</small></footer>
+					<footer><small>Historical wiki for Orpryland Park</small></footer>
 				</article>
 				
 				<article class="project">
 					<header><a href="#">Choke Index</a></header>
 					<img src="images/projects/coding/ci_banner.png">
-					<footer><small>Sports Analytics.</small></footer>
+					<footer><small>A dynamic sports analytics site</small></footer>
 				</article>
 				
 				<article class="project">
 					<header><a href="#">Meow Meow Cyprus</a></header>
 					<img src="images/projects/coding/MMC_LOGO_FINAL.png">
-					<footer><small>Charity site for Cyprus cats.</small></footer>
+					<footer><small>Charity adoption site for Cyprus cats</small></footer>
 				</article>
 				
 				<article class="project">
 					<header><a href="#">Maddy's Music Box</a></header>
 					<img src="images/projects/coding/MBB_Logo-Wide.jpg">
-					<footer><small>Music tutoring site.</small></footer>
+					<footer><small>Site for local music tutoring business</small></footer>
 				</article>
 				
 				<article class="project">
 					<header><a href="#">Healing Hideaway Massage</a></header>
 					<img src="images/projects/coding/hhm.jpeg">
-					<footer><small>Local business.</small></footer>
+					<footer><small>Site for local small business</small></footer>
 				</article>
 				
 			</div>
@@ -195,8 +335,7 @@
 			<!-- <img src="images/coding/no_ai.png"> -->
 		</section>
 				
-				
-		<section id="about-me" class="section" style="margin-top:64px;">
+		<section id="contact" class="section" style="margin-top:64px;">
 			<h2>Contact <span>Info</span></h2>
 			<hr/>
 			<div style="display: flex; gap: 64px;">
@@ -213,7 +352,6 @@
 		</section>
 	</main>
 			
-			
 	<footer>
 		<div class="container">
 			<p><small>
@@ -221,6 +359,7 @@
 			</small></p>
 		</div>        
 	</footer>
+
 	<script type="module" src="/src/scripts/main.js"></script>
 	<!-- 100% privacy-first analytics -->
 	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
